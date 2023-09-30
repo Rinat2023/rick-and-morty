@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Elements></Elements>} />
+        <Route path="*/" element={<Elements></Elements>} />
         <Route path="/:Id" element={<Element />} />
         <Route path="/modal" element={<ModalPage />} />
       </Routes>
